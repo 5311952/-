@@ -1,0 +1,89 @@
+body {
+    line-height: 1.7;
+    color: rgb(255, 221, 30);
+    font-weight: 400;
+    font-size: 1rem;
+    }
+    
+    h1,h2,h3,h4,h5
+    .h1,.h2,.h3,.h4,.h5 {color: rgb(223, 167, 255);}
+    
+    h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: none;
+    }
+    
+    .menu {
+    border-bottom: 1px solid rgb(165, 165, 165);
+    font-style: unset;
+    }
+    
+    ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+    }
+    
+    .name {
+    text-align: center;
+    font-family: impact,sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(162, 111, 255);
+    }
+    /* 네비게이션 바 */
+    .navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #333;
+    font-weight: 600;
+    }
+  
+  /* 네비게이션 바 가상선택자 */
+  .navbar a {
+    color: #333;
+    padding: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+  /* 커서 올려놨을때 색변화 */
+  .navbar a:hover {
+    background-color: #e9e638;
+    color: #fff;
+  }
+    .text {
+    padding: 5px;
+    border: 6px rgb(253, 232, 112);
+    border-style: dotted;
+    background-color: rgb(255, 159, 191);
+    }
+    
+    .img_fluid{
+    width: 40%;
+    height: auto;
+    }
+    
+    .paint {
+    background-color: rgb(255, 159, 218);
+    font-style: italic;
+    text-align: right;
+    }
+    .caption {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .2em;
+    font-size: 12px;
+    padding: 7px 10px;
+    color: rgb(255, 146, 173);
+    display: inline-block;
+    }
